@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ever Clean Laundry</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #1775e1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0e56a0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1581578017423-3f40e0bdf903?auto=format&fit=crop&w=1400&q=80') center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .services, .pricing {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 280px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        footer {
+            background: #1775e1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            background: #1775e1;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ever Clean Laundry</h1>
+    <p>Quality • Convenience • Care</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Your Clothes, Fresh & Clean — Every Time</h1>
+</div>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Wash & Fold</h3>
+            <p>Premium washing service for everyday clothes.</p>
+        </div>
+        <div class="card">
+            <h3>Dry Cleaning</h3>
+            <p>Expert cleaning for delicate and formal garments.</p>
+        </div>
+        <div class="card">
+            <h3>Pickup & Delivery</h3>
+            <p>We pick up, clean, and deliver your laundry.</p>
+        </div>
+    </div>
+</section>
+
+<section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing">
+        <div class="card">
+            <h3>Wash & Fold</h3>
+            <p>$1.50 per pound</p>
+        </div>
+        <div class="card">
+            <h3>Dry Cleaning</h3>
+            <p>Shirts: $5<br>Suits: $12</p>
+        </div>
+        <div class="card">
+            <h3>Pickup & Delivery</h3>
+            <p>Free for orders above $20</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Ever Clean Laundry</h2>
+    <p>
+        We’ve been providing trusted laundry services for over 10 years.  
+        Our team is committed to high-quality cleaning, fast turnaround, and excellent customer care.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> (000) 123-4567</p>
+    <p><strong>Email:</strong> support@evercleanlaundry.com</p>
+    <p><strong>Address:</strong> 123 Laundry Street, Your City</p>
+    <button onclick="alert('Thank you! We will contact you soon.')">Book a Pickup</button>
+</section>
+
+<footer>
+    <p>© 2025 Ever Clean Laundry</p>
+</footer>
+
+</body>
+</html>
